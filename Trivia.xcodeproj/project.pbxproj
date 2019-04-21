@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842B56EC226C6AE100EF5A57 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B56EB226C6AE100EF5A57 /* QuestionType.swift */; };
+		842B56EE226C6B2100EF5A57 /* QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B56ED226C6B2100EF5A57 /* QuizService.swift */; };
+		842B56F0226C6B4A00EF5A57 /* QuizQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B56EF226C6B4A00EF5A57 /* QuizQuestions.swift */; };
+		842BA1E92269DD08005838B2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1E82269DD08005838B2 /* Person.swift */; };
+		842BA1EB2269DECC005838B2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1EA2269DECC005838B2 /* Alert.swift */; };
+		842BA1ED2269E430005838B2 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1EC2269E430005838B2 /* QuizVC.swift */; };
+		842BA1EF226A24FB005838B2 /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1EE226A24FB005838B2 /* QuestionCollectionViewCell.swift */; };
+		842BA1F1226AE28C005838B2 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1F0226AE28C005838B2 /* CoreData.swift */; };
+		842BA1F3226AE83D005838B2 /* CongratsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1F2226AE83D005838B2 /* CongratsVC.swift */; };
+		842BA1F5226B0A7D005838B2 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1F4226B0A7D005838B2 /* HistoryVC.swift */; };
+		842BA1F7226B365F005838B2 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1F6226B365F005838B2 /* HistoryTableViewCell.swift */; };
+		842BA1F9226B69F6005838B2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA1F8226B69F6005838B2 /* DetailsViewController.swift */; };
 		847A240E2268868B006B9942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A240D2268868B006B9942 /* AppDelegate.swift */; };
-		847A24102268868B006B9942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A240F2268868B006B9942 /* ViewController.swift */; };
-		847A24132268868B006B9942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A24112268868B006B9942 /* Main.storyboard */; };
+		847A24102268868B006B9942 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A240F2268868B006B9942 /* MainVC.swift */; };
 		847A24162268868B006B9942 /* Trivia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847A24142268868B006B9942 /* Trivia.xcdatamodeld */; };
 		847A24182268868D006B9942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A24172268868D006B9942 /* Assets.xcassets */; };
-		847A241B2268868D006B9942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A24192268868D006B9942 /* LaunchScreen.storyboard */; };
+		847A24252268A8A9006B9942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A24242268A8A9006B9942 /* LaunchScreen.storyboard */; };
+		847A24292268CE00006B9942 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A24282268CE00006B9942 /* SplashVC.swift */; };
+		847A242B2268EACD006B9942 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A242A2268EACD006B9942 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842B56EB226C6AE100EF5A57 /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		842B56ED226C6B2100EF5A57 /* QuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizService.swift; sourceTree = "<group>"; };
+		842B56EF226C6B4A00EF5A57 /* QuizQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestions.swift; sourceTree = "<group>"; };
+		842BA1E82269DD08005838B2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		842BA1EA2269DECC005838B2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		842BA1EC2269E430005838B2 /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		842BA1EE226A24FB005838B2 /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		842BA1F0226AE28C005838B2 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		842BA1F2226AE83D005838B2 /* CongratsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsVC.swift; sourceTree = "<group>"; };
+		842BA1F4226B0A7D005838B2 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		842BA1F6226B365F005838B2 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		842BA1F8226B69F6005838B2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		847A240A2268868B006B9942 /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A240D2268868B006B9942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847A240F2268868B006B9942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		847A24122268868B006B9942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847A240F2268868B006B9942 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		847A24152268868B006B9942 /* Trivia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trivia.xcdatamodel; sourceTree = "<group>"; };
 		847A24172268868D006B9942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		847A241A2268868D006B9942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847A241C2268868D006B9942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A24242268A8A9006B9942 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847A24282268CE00006B9942 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		847A242A2268EACD006B9942 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842B56EA226C6AA500EF5A57 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				842BA1EE226A24FB005838B2 /* QuestionCollectionViewCell.swift */,
+				842BA1F6226B365F005838B2 /* HistoryTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		842B56F2226C6BA900EF5A57 /* LunchScreen Animation */ = {
+			isa = PBXGroup;
+			children = (
+				847A24282268CE00006B9942 /* SplashVC.swift */,
+			);
+			path = "LunchScreen Animation";
+			sourceTree = "<group>";
+		};
+		842BA1E52269DA30005838B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847A240F2268868B006B9942 /* MainVC.swift */,
+				842BA1EC2269E430005838B2 /* QuizVC.swift */,
+				842BA1F2226AE83D005838B2 /* CongratsVC.swift */,
+				842BA1F4226B0A7D005838B2 /* HistoryVC.swift */,
+				842BA1F8226B69F6005838B2 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		842BA1E62269DA37005838B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				842B56F2226C6BA900EF5A57 /* LunchScreen Animation */,
+				842B56EA226C6AA500EF5A57 /* Cells */,
+				847A242A2268EACD006B9942 /* Extensions.swift */,
+				842BA1EA2269DECC005838B2 /* Alert.swift */,
+				847A24172268868D006B9942 /* Assets.xcassets */,
+				847A24242268A8A9006B9942 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		842BA1E72269DA3D005838B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842BA1E82269DD08005838B2 /* Person.swift */,
+				842BA1F0226AE28C005838B2 /* CoreData.swift */,
+				842B56EB226C6AE100EF5A57 /* QuestionType.swift */,
+				842B56ED226C6B2100EF5A57 /* QuizService.swift */,
+				842B56EF226C6B4A00EF5A57 /* QuizQuestions.swift */,
+				847A24142268868B006B9942 /* Trivia.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		847A24012268868B006B9942 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +137,11 @@
 		847A240C2268868B006B9942 /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				842BA1E72269DA3D005838B2 /* Model */,
+				842BA1E62269DA37005838B2 /* View */,
+				842BA1E52269DA30005838B2 /* Controller */,
 				847A240D2268868B006B9942 /* AppDelegate.swift */,
-				847A240F2268868B006B9942 /* ViewController.swift */,
-				847A24112268868B006B9942 /* Main.storyboard */,
-				847A24172268868D006B9942 /* Assets.xcassets */,
-				847A24192268868D006B9942 /* LaunchScreen.storyboard */,
 				847A241C2268868D006B9942 /* Info.plist */,
-				847A24142268868B006B9942 /* Trivia.xcdatamodeld */,
 			);
 			path = Trivia;
 			sourceTree = "<group>";
@@ -125,9 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847A241B2268868D006B9942 /* LaunchScreen.storyboard in Resources */,
 				847A24182268868D006B9942 /* Assets.xcassets in Resources */,
-				847A24132268868B006B9942 /* Main.storyboard in Resources */,
+				847A24252268A8A9006B9942 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +216,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847A24102268868B006B9942 /* ViewController.swift in Sources */,
+				842BA1E92269DD08005838B2 /* Person.swift in Sources */,
+				842BA1F5226B0A7D005838B2 /* HistoryVC.swift in Sources */,
+				842BA1F7226B365F005838B2 /* HistoryTableViewCell.swift in Sources */,
+				842BA1ED2269E430005838B2 /* QuizVC.swift in Sources */,
+				842B56EC226C6AE100EF5A57 /* QuestionType.swift in Sources */,
+				847A242B2268EACD006B9942 /* Extensions.swift in Sources */,
+				842B56EE226C6B2100EF5A57 /* QuizService.swift in Sources */,
+				842B56F0226C6B4A00EF5A57 /* QuizQuestions.swift in Sources */,
+				847A24102268868B006B9942 /* MainVC.swift in Sources */,
+				842BA1F1226AE28C005838B2 /* CoreData.swift in Sources */,
+				842BA1EF226A24FB005838B2 /* QuestionCollectionViewCell.swift in Sources */,
 				847A240E2268868B006B9942 /* AppDelegate.swift in Sources */,
 				847A24162268868B006B9942 /* Trivia.xcdatamodeld in Sources */,
+				847A24292268CE00006B9942 /* SplashVC.swift in Sources */,
+				842BA1F9226B69F6005838B2 /* DetailsViewController.swift in Sources */,
+				842BA1EB2269DECC005838B2 /* Alert.swift in Sources */,
+				842BA1F3226AE83D005838B2 /* CongratsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		847A24112268868B006B9942 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847A24122268868B006B9942 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		847A24192268868D006B9942 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847A241A2268868D006B9942 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		847A241D2268868D006B9942 /* Debug */ = {

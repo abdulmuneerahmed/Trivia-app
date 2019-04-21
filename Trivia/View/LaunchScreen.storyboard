@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trivia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxg-nv-oKY">
+                                <rect key="frame" x="131.5" y="410" width="112.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="vkL-6U-Tid"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="dj6-5R-R5M">
+                                <rect key="frame" x="131.5" y="277.5" width="112.5" height="112.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dj6-5R-R5M" secondAttribute="height" id="yKl-yk-3Yp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dj6-5R-R5M" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4TQ-5S-Vpp"/>
+                            <constraint firstItem="dj6-5R-R5M" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MaP-8y-BzH"/>
+                            <constraint firstItem="Cxg-nv-oKY" firstAttribute="leading" secondItem="dj6-5R-R5M" secondAttribute="leading" id="ZB8-hW-vJX"/>
+                            <constraint firstItem="Cxg-nv-oKY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="a2m-AJ-PZR"/>
+                            <constraint firstItem="Cxg-nv-oKY" firstAttribute="trailing" secondItem="dj6-5R-R5M" secondAttribute="trailing" id="hmT-V8-sD7"/>
+                            <constraint firstItem="Cxg-nv-oKY" firstAttribute="firstBaseline" secondItem="dj6-5R-R5M" secondAttribute="baseline" constant="40" id="kXB-Pa-ze9"/>
+                            <constraint firstItem="dj6-5R-R5M" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.3" id="nBe-NC-rm3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="512" height="512"/>
+    </resources>
+</document>
